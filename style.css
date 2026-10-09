@@ -1,0 +1,94 @@
+/* ==================== FONT IMPORT ==================== */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* ==================== ROOT / VARIABLES ==================== */
+:root {
+  --gold: #c5a880;
+  --dark: #0f172a;
+  --dark-gold: #b39266;
+}
+
+/* ==================== BODY / GLOBAL STYLES ==================== */
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #334155;
+  background: #f8fafc;
+}
+
+/* ==================== TYPOGRAPHY / YAZI STILLERİ ==================== */
+.font-serif {
+  font-family: "Playfair Display", serif;
+}
+
+/* ==================== BACKGROUND COLORS / ARKA PLAN RENKLERİ ==================== */
+.bg-dark-navy {
+  background-color: var(--dark) !important;
+}
+
+.bg-gold {
+  background-color: var(--gold) !important;
+}
+
+/* ==================== TEXT COLORS / METİN RENKLERİ ==================== */
+
+.text-gold {
+  color: var(--gold) !important;
+}
+/* ==================== BUTTONS / BUTONLAR ==================== */
+.btn-gold {
+  background: var(--gold) !important;
+  border-color: var(--gold);
+  color: #fff !important;
+}
+
+.btn-gold:hover {
+  background: var(--dark-gold) !important;
+  border-color: var(--dark-gold);
+  color: #fff !important;
+}
+
+/* ==================== HERO IMAGE / HERO GÖRSELİ ==================== */
+.hero-img {
+  height: 75vh;
+  min-height: 450px;
+  object-fit: cover;
+}
+
+/* ==================== OVERLAY / KAPLAMA ==================== */
+.overlay {
+  background: rgba(15, 23, 42, 0.6);
+}
+
+/* ==================== ROOM IMAGE / ODA GÖRSELİ ==================== */
+.room-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ==================== HOVER EFFECT / HOVER EFEKTİ ==================== */
+.hover-lift {
+  transition: transform 0.25s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+}
+
+/* ==================== LINKS / LİNKLER ==================== */
+a {
+  text-decoration: none !important;
+}
+
+/* ==================== POPUP ==================== */
+.popup {
+    animation: popup 1s ease
+}
+/* ==================== ANIMATION / ANİMASYON ==================== */
+@keyframes popup {
+  0% {
+    scale: 0.1;
+  }
+  100% {
+    scale: 1;
+  }
+}

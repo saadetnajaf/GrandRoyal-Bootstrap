@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grand Royal Hotel | 5 Yıldızlı Lüks Deneyim</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- ==================== HEADER ==================== -->
+    <header class="bg-dark-navy text-light py-1 small d-none d-md-block">
+      <address class="container d-flex justify-content-between mb-0 fst-normal">
+        <div>
+          <span class="me-3">
+            <i class="bi bi-geo-alt text-gold"></i> Monaco Sahil Bulvarı No: 624
+          </span>
+          <span
+            ><i class="bi bi-telephone text-gold"></i> +90 (850) 555 - ROYAL
+          </span>
+        </div>
+        <div>
+          <a href="#" class="text-light text-decoration-none me-2"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="#" class="text-light text-decoration-none me-2"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="#" class="text-light text-decoration-none me-2"
+            ><i class="bi bi-twitter-x"></i
+          ></a>
+        </div>
+      </address>
+    </header>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm py-2"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold fs-4 text-dark d-flex align-items-center"
+          href="#"
+          ><i class="bi bi-gem text-gold fs-3 me-2"></i>
+          <span class="font-serif">GRAND ROYAL</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav mx-auto fw-medium">
+            <li class="nav-item">
+              <a class="nav-link active text-gold" href="./index.html"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./rooms.html">Odalar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#about">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#services">Hizmetler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#contact">İletişim</a>
+            </li>
+          </ul>
+          <a
+            href="./rooms.html"
+            class="btn btn-gold rounded-pill px-4 btn-sm fw-semibold"
+            >Rezervasyon Yap</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==================== HERO / CAROUSEL / SLIDER ==================== -->
+    <section
+      id="hero"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#hero"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#hero"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#hero"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1600&q=80"
+            class="d-block w-100 hero-img"
+          />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 top-0 bottom-0 overlay"
+          >
+            <span class="badge bg-gold mb-2 px-3 py-2 rounded-pill"
+              >5 Yıldızlı Lüks Resort</span
+            >
+            <h2 class="fw-bold font-serif">Zarafetin ve Konforun Zirvesi</h2>
+            <p class="lead mb-4">
+              Nefes kesen sahil manzarası ve kişiye özel lüks konaklama
+              deneyimi.
+            </p>
+
+            <div>
+              <a
+                href="./rooms.html"
+                class="btn btn-gold btn-lg rounded-pill me-2 mb-2 mb-md-0"
+                >Rezervasyon Yap</a
+              >
+              <a
+                href="./rooms.html"
+                class="btn btn-outline-light btn-lg rounded-pill"
+                >Odaları Keşfet</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80"
+            class="d-block w-100 hero-img"
+          />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 top-0 bottom-0 overlay"
+          >
+            <span class="badge bg-gold mb-2 px-3 py-2 rounded-pill"
+              >Seçkin Süitler</span
+            >
+            <h2 class="fw-bold font-serif">Kişiye Özel Konukseverlik</h2>
+            <p class="lead mb-4">
+              Özel tasarım mobilyalar ve sonsuzluk terasları ile unutulmaz bir
+              tatil.
+            </p>
+
+            <div>
+              <a
+                href="./rooms.html"
+                class="btn btn-gold btn-lg rounded-pill me-2 mb-2 mb-md-0"
+                >Rezervasyon Yap</a
+              >
+              <a
+                href="./rooms.html"
+                class="btn btn-outline-light btn-lg rounded-pill"
+                >Odaları Keşfet</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80"
+            class="d-block w-100 hero-img"
+          />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 top-0 bottom-0 overlay"
+          >
+            <span class="badge bg-gold mb-2 px-3 py-2 rounded-pill"
+              >Michelin Gastronomi</span
+            >
+            <h2 class="fw-bold font-serif">Eşsiz Mutfak Sanatı</h2>
+            <p class="lead mb-4">
+              Dünya standartlarında şeflerimizin hazırladığı gurme lezzetler.
+            </p>
+
+            <div>
+              <a
+                href="./rooms.html"
+                class="btn btn-gold btn-lg rounded-pill me-2 mb-2 mb-md-0"
+                >Rezervasyon Yap</a
+              >
+              <a
+                href="./rooms.html"
+                class="btn btn-outline-light btn-lg rounded-pill"
+                >Odaları Keşfet</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#hero"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#hero"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+      <!-- ==================== ABOUT / OTEL HAKKINDA ==================== -->
+      <section id="about" class="py-5 bg-white">
+        <div class="container py-3">
+          <div class="row align-items-center g-4">
+            <figure class="col-lg-6 mb-0">
+              <img
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"
+                alt="About image"
+                class="img-fluid rounded-4 shadow"
+              />
+            </figure>
+            <div class="col-lg-6">
+              <header>
+                <span class="text-gold fw-bold text-uppercase small"
+                  >Grand Royal'e Hoş Geldiniz</span
+                >
+                <h2 class="display-6 fw-bold font-serif text-dark">
+                  Zamansız Zarafet ve Üstün Konfor
+                </h2>
+              </header>
+
+              <p class="text-secondary mb-4">
+                Akdeniz kıyısında huzur, lüks ve seçkin konukseverliği bir arada
+                sunuyoruz.
+              </p>
+
+              <ul class="row g-3 list-unstyled mb-4">
+                <li class="col-6">
+                  <div class="p-3 bg-light rounded-3">
+                    <i class="bi bi-stars text-gold fs-4 me-2"></i>
+                    5 Yıldızlı Lüks
+                  </div>
+                </li>
+                <li class="col-6">
+                  <div class="p-3 bg-light rounded-3">
+                    <i class="bi bi-cup-hot text-gold fs-4 me-2"></i>
+                    Michelin Mutfak
+                  </div>
+                </li>
+                <li class="col-6">
+                  <div class="p-3 bg-light rounded-3">
+                    <i class="bi bi-water text-gold fs-4 me-2"></i>
+                    Sonsuzluk Havuzu
+                  </div>
+                </li>
+                <li class="col-6">
+                  <div class="p-3 bg-light rounded-3">
+                    <i class="bi bi-shield-check text-gold fs-4 me-2"></i>
+                    7/24 Kosiyerj
+                  </div>
+                </li>
+              </ul>
+
+              <a href="./rooms.html" class="btn btn-dark rounded-pill"
+                >Daha Fazla Bilgi <i class="bi bi-arrow-right ms-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== ROOM OPTIONS / ODA SEÇENEKLERİ ==================== -->
+      <section class="py-5 bg-light">
+        <div class="container">
+          <header class="text-center mb-4">
+            <span class="text-gold fw-bold text-uppercase small"
+              >Seçkin Konaklama</span
+            >
+            <h2 class="display-6 fw-bold font-serif text-dark">
+              Öne Çıkan Odalar
+            </h2>
+          </header>
+
+          <div class="row row-cols-1 row-cols-lg-3 g-4">
+            <!-- Room 1 -->
+            <div class="col">
+              <div
+                class="card h-100 border-0 shadow-sm rounded-4 bg-white overflow-hidden hover-lift"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=600&q=80"
+                  alt="Room 1"
+                  class="card-img-top room-img"
+                />
+
+                <div class="card-body p-4 d-flex flex-column">
+                  <h3 class="card-title h5 fw-bold font-serif text-dark">
+                    Deluxe Deniz Manzaralı Süit
+                  </h3>
+                  <p class="card-text text-secondary small flex-grow-1">
+                    Panoramik Akdeniz manzarası ve jakuzili mermer banyo.
+                  </p>
+
+                  <footer
+                    class="d-flex justify-content-between align-items-center pt-3 border-top"
+                  >
+                    <span class="fw-bold fs-5 text-dark"
+                      >3.500 ₺<small class="text-muted fs-6 fw-normal"
+                        >/gece</small
+                      ></span
+                    >
+                    <a
+                      href="./rooms.html"
+                      class="btn btn-gold btn-sm rounded-pill px-3"
+                      >Rezervasyon Yap</a
+                    >
+                  </footer>
+                </div>
+              </div>
+            </div>
+
+            <!-- Room 2 -->
+            <div class="col">
+              <div
+                class="card h-100 border-0 shadow-sm rounded-4 bg-white overflow-hidden hover-lift"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80"
+                  alt="Room 2"
+                  class="card-img-top room-img"
+                />
+
+                <div class="card-body p-4 d-flex flex-column">
+                  <h3 class="card-title h5 fw-bold font-serif text-dark">
+                    Kraliyet Başkanlık Çatı Katı
+                  </h3>
+                  <p class="card-text text-secondary small flex-grow-1">
+                    Özel ısıtmalı çatı havuzu ve 7/24 kişisel uşak hizmeti.
+                  </p>
+
+                  <footer
+                    class="d-flex justify-content-between align-items-center pt-3 border-top"
+                  >
+                    <span class="fw-bold fs-5 text-dark"
+                      >8.900 ₺<small class="text-muted fs-6 fw-normal"
+                        >/gece</small
+                      ></span
+                    >
+                    <a
+                      href="./rooms.html"
+                      class="btn btn-gold btn-sm rounded-pill px-3"
+                      >Rezervasyon Yap</a
+                    >
+                  </footer>
+                </div>
+              </div>
+            </div>
+
+            <!-- Room 3 -->
+            <div class="col">
+              <div
+                class="card h-100 border-0 shadow-sm rounded-4 bg-white overflow-hidden hover-lift"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=600&q=80"
+                  alt="Room 3"
+                  class="card-img-top room-img"
+                />
+
+                <div class="card-body p-4 d-flex flex-column">
+                  <h3 class="card-title h5 fw-bold font-serif text-dark">
+                    Executive Bahçe Villası
+                  </h3>
+                  <p class="card-text text-secondary small flex-grow-1">
+                    Botanik bahçe içinde açık hava yağmur duşu ve kamelya.
+                  </p>
+
+                  <footer
+                    class="d-flex justify-content-between align-items-center pt-3 border-top"
+                  >
+                    <span class="fw-bold fs-5 text-dark"
+                      >4.900 ₺<small class="text-muted fs-6 fw-normal"
+                        >/gece</small
+                      ></span
+                    >
+                    <a
+                      href="./rooms.html"
+                      class="btn btn-gold btn-sm rounded-pill px-3"
+                      >Rezervasyon Yap</a
+                    >
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== SERVICES / OTEL HİZMETLERİ ==================== -->
+      <section id="services">
+        <div class="container">
+          <header class="text-center mb-4">
+            <span class="text-gold fw-bold text-uppercase small"
+              >Ayrıcalıklar</span
+            >
+            <h2 class="dislpay-6 fw-bold font-serif text-dark">
+              Otel Hizmetlerimiz
+            </h2>
+          </header>
+
+          <ul class="row g-3 text-center list-unstyled">
+            <!-- Spa -->
+            <li class="col-md-4 col-sm-6">
+              <div class="p-4 bg-light rounded-4 h-100">
+                <i class="bi bi-flower1 text-gold fs-1 mb-2 d-block"></i>
+                <h6 class="fw-bold">Spa & Sağlık</h6>
+                <small class="text-muted">Türk hamamı ve masaj</small>
+              </div>
+            </li>
+            <!-- Restaurant -->
+            <li class="col-md-4 col-sm-6">
+              <div class="p-4 bg-light rounded-4 h-100">
+                <i class="bi bi-cup-hot text-gold fs-1 mb-2 d-block"></i>
+                <h6 class="fw-bold">Restoran</h6>
+                <small class="text-muted">Michelin gurme lezzetler</small>
+              </div>
+            </li>
+            <!-- Pool -->
+            <li class="col-md-4 col-sm-6">
+              <div class="p-4 bg-light rounded-4 h-100">
+                <i class="bi bi-water text-gold fs-1 mb-2 d-block"></i>
+                <h6 class="fw-bold">Havuz</h6>
+                <small class="text-muted">Isıtmalı sonsuzluk havuzu</small>
+              </div>
+            </li>
+            <!-- Gym -->
+            <li class="col-md-4 col-sm-6">
+              <div class="p-4 bg-light rounded-4 h-100">
+                <i class="bi bi-heart-pulse text-gold fs-1 mb-2 d-block"></i>
+                <h6 class="fw-bold">Spor Salonu</h6>
+                <small class="text-muted">7/24 Technogym ekipmanları</small>
+              </div>
+            </li>
+            <!-- VIP Transfer -->
+            <li class="col-md-4 col-sm-6">
+              <div class="p-4 bg-light rounded-4 h-100">
+                <i class="bi bi-car-front text-gold fs-1 mb-2 d-block"></i>
+                <h6 class="fw-bold">VIP Transfer</h6>
+                <small class="text-muted">Maybach ve helikopter</small>
+              </div>
+            </li>
+            <!-- Conference -->
+            <li class="col-md-4 col-sm-6">
+              <div class="p-4 bg-light rounded-4 h-100">
+                <i class="bi bi-people text-gold fs-1 mb-2 d-block"></i>
+                <h6 class="fw-bold">Konferans</h6>
+                <small class="text-muted">Gala & balo salonları</small>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ==================== REVIEWS / YORUMLAR ==================== -->
+      <section id="reviews" class="py-5 bg-light">
+        <div class="container">
+          <header class="text-center mb-4">
+            <h2 class="display-6 fw-bold font-serif text-dark">
+              Misafir Yorumları
+            </h2>
+          </header>
+  
+          <div class="row g-4">
+            <!-- Testimonial Card 1 -->
+            <div class="col-md-4">
+              <div class="card p-4 border-0 shadow-sm rounded-4 h-100">
+                <div class="text-warning mb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <blockquote class="blockquote small text-secondary mb-3">
+                  <p class="mb-0">
+                    "Kral Dairesi'nden izlediğimiz gün batımı ve oda servisi
+                    kusursuzdu."
+                  </p>
+                </blockquote>
+                <figcaption
+                  class="blockquote-footer mb-0 fw-bold small text-dark"
+                >
+                  Lady Eleanor Vance
+                </figcaption>
+              </div>
+            </div>
+            <!-- Testimonial Card 2 -->
+            <div class="col-md-4">
+              <div class="card p-4 border-0 shadow-sm rounded-4 h-100">
+                <div class="text-warning mb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <blockquote class="blockquote small text-secondary mb-3">
+                  <p class="mb-0">
+                    "Restorandaki gurme menü ve şarap seçkisi olağanüstüydü."
+                  </p>
+                </blockquote>
+                <figcaption
+                  class="blockquote-footer mb-0 fw-bold small text-dark"
+                >
+                  Marcus Sterling
+                </figcaption>
+              </div>
+            </div>
+            <!-- Testimonial Card 3 -->
+            <div class="col-md-4">
+              <div class="card p-4 border-0 shadow-sm rounded-4 h-100">
+                <div class="text-warning mb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <blockquote class="blockquote small text-secondary mb-3">
+                  <p class="mb-0">
+                    "Sonsuzluk havuzunun manzarası ve spa merkezi bir rüya
+                    gibiydi."
+                  </p>
+                </blockquote>
+                <figcaption
+                  class="blockquote-footer mb-0 fw-bold small text-dark"
+                >
+                  Sophia Al-Mansoor
+                </figcaption>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- ==================== CTA / CALL TO ACTION ==================== -->
+      <section class="py-5 bg-dark-navy text-white text-center">
+        <div class="container py-2">
+          <h2 class="display-6 fw-bold font-serif mb-2">Lüksü Bizimle Yaşayın</h2>
+          <p class="text-light opacity-75 mb-4 small">
+            Özel indirimler ve VIP transfer için hemen yerinizi ayırtın.
+          </p>
+          <a href="./rooms.html" class="btn btn-gold btn-lg rounded-pill px-5"
+            >Rezervasyon Yap</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-black text-light py-4">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Logo -->
+          <section class="col-md-4">
+            <h5 class="font-serif text-white">
+              <i class="bi bi-gem text-gold me-2"></i>Grand Royal
+            </h5>
+            <p class="text-secondary small mb-0">
+              Akdeniz kıyısında 5 yıldızlı lüks konaklama.
+            </p>
+          </section>
+          <!-- Navbar -->
+          <nav class="col-md-4">
+            <h6 class="text-white mb-2">Hızlı Linkler</h6>
+            <ul class="list-unstyled small mb-0">
+              <li>
+                <a
+                  href="./index.html"
+                  class="text-decoration-none text-secondary"
+                  >Anasayfa</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./rooms.html"
+                  class="text-decoration-none text-secondary"
+                  >Odalar</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="text-decoration-none text-secondary"
+                  >Hakkımızda</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <!-- Contact -->
+          <address class="col-md-4 mb-0">
+            <h6 class="text-white">İletişim</h6>
+            <p class="text-secondary small mb-0">
+              <i class="bi bi-telephone text-gold me-2"></i> +90 (850) 555-ROYAL
+            </p>
+            <p class="text-secondary small mb-0">
+              <i class="bi bi-envelope text-gold me-2"></i>
+              rezervasyon@grandroyalhotel.com
+            </p>
+          </address>
+        </div>
+        <hr />
+        <div class="text-center small text-secondary">
+          &copy; 2026 Grand Royal Luxurt Hotel.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
